@@ -1,0 +1,5 @@
+name: bootsphp
+version: 1
+handle:
+
+- rewrite: if ( path !~ "^index.php([/].*)$" ) goto "/index.php/$1"
